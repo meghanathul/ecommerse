@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import { DataProvider } from './Components/DataContext'
-import Display from './Components/Display'
+import Details from './Components/Details'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
         <Routes>
         <Route path='*' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
-          <Route path='/display/:id' element={<Display/>}/>
+          <Route path='/details/:id' element={<Details/>}/>
         </Routes>
       </Router>
       </DataProvider>

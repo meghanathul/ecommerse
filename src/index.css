@@ -41,13 +41,18 @@ button{
 .main-container{
   display: flex;
   margin-left: 100px;
+  /* border: 2px solid green; */
+  flex-wrap: wrap;
 }
 .container{
   /* border: 2px solid green; */
   background-color: lightgrey;
+  margin-top: 10px;
   border-radius: 8px;
+  box-shadow: 5px 5px 10px ;
   width: 20vw;
-  height: 400px;
+  color: black;
+  height: 500px;
   text-align: center;
  margin-left: 15px;
  cursor: pointer;
@@ -60,3 +65,9 @@ button{
   
 }
 h3{margin-top: 30px;}
+.back{
+  filter: blur(1.9px);
+}
+.list{
+  text-decoration: none;
+}
