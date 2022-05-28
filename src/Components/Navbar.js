@@ -16,7 +16,7 @@ const Navbar = () => {
        <Link to='/contact' style={{textDecoration:'none'}} className='li'>Contact</Link>
        <div className='profile'>
            <span>Profile</span>
-           <button>Add</button>
+           <button className='button'><i class="fas fa-shopping-cart"></i></button>
        </div>
    </ul>
             </nav>
